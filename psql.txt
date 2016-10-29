@@ -1,0 +1,4 @@
+#start service linux:
+sudo service postgresql start
+#Connect db
+psql -h <host> -d <DB> -U <user>
