@@ -20,4 +20,4 @@ Download jdbc driver from maven
 #SELECT DATABASE GRANT USE
 #SAVE AND CONNECT
 
-#EX DRIVER (Third-Driver)
+#EX DRIVER (Third-Drivers)
