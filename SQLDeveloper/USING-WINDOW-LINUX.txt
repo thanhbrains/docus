@@ -1,0 +1,8 @@
+#WINDOW: 
+Download sqldeveloper (for window)
+Unzip and run sqldeveloper.exe
+#LINUX
+Download sqldeveloper (for window(zip) or linux (rpm))
+if zip: unzip, set execute for sqldeveloper.sh -> run sh sqldeveloper.sh
+if rpm: unzip sqldeveloper folder, set execute for sqldeveloper.sh -> run sh sqldeveloper.sh
+         
