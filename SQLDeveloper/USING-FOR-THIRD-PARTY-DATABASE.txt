@@ -1,0 +1,23 @@
+#SQLServer
+Download driver [jtds-1.2-dist.zip] from sourceforge.net and extract
+#Postgres SQL
+Download jdbc driver from maven
+#MySQL
+Download jdbc driver from maven
+
+###############
+####USE
+#OPEN SQL Developer
+#Tool -> Preferences -> Database -> ..Third party.. -> select jar file driver
+#Create connection
+#Select tab DATABASE WITH DATABASE NEED CONNECT (SQLServer, Postgres, MySQL ...)
+#INPUT Name connection, USENAME, PASSWORD
+#INPUT HOST 
+(Ex, if psql jdbc url: [jdbc:postgresql://127.0.0.1:5432/testdb] -> HOST: [127.0.0.1:5432/testdb?] )
+(Ex, if sql server jdbc url: [jdbc:microsoft:sqlserver://127.0.0.1:1433;DatabaseName=testdb] -> HOST: [127.0.0.1:1433;DatabaseName=testdb?] )
+(Ex, if my sql jdbc url: [jdbc:mysql://127.0.0.1:1234/testdb] -> HOST: [127.0.0.1:1234/testdb?] )
+#INPUT PORT
+#SELECT DATABASE GRANT USE
+#SAVE AND CONNECT
+
+#EX DRIVER (Third-Driver)
