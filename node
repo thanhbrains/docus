@@ -1,0 +1,8 @@
+Source library:
+https://github.com/nodejs/node/tree/master/lib
+
+Nếu coi 1 file (ex: test.js) <=> 1 file(java ex A.java) thì có thể coi test = require('./test') trong đó 
+test có thể coi tương đương 1 instance của class A.
+Và tất cả các function được gọi trong test.js sẽ run, các biến được khai báo trong test.js được khởi tạo.
+Trong đó: exports.methodExample = function (..) {...} tương đương public method trong java. Call test.methodExample(..)
+          exports.fieldExample = 'valueExample' tương đương public field trong java. Call test.fieldExample
