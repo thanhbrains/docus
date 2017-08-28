@@ -1,2 +1,18 @@
 database : https://www.dbvis.com/download/ (/opt/<>)
 SVN: RabbitVCS
+
+
+Scheduler task (crontab):
+
+create file mycron with content: * * * * * /bin/sh /path/to/exec.sh.
+with exec.sh has content echo "Hello" >> /path/to/out.log
+Run:
+>$ crontab mycron
+
+
+find crontab:
+$ crontab -l
+
+romove
+$ crontab -r
+
